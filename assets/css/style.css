@@ -73,3 +73,13 @@ hr {
     padding: 30px;
     border-radius: 10px 0 10px 0;
 }
+.carousel-inner::before {
+    position: absolute;
+    left: 31%;
+    top: 184px;
+    content: "BEST PRODUCTS";
+    font-weight: 600;
+    transform: rotate(270deg);
+    font-size: 400%;
+    opacity: .3;
+}
