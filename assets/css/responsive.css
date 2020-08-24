@@ -1,0 +1,96 @@
+/* Large Layout: 1400px. */
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .carousel-inner::before {
+        left: 33%;
+        top: 151px;
+        font-size: 300%;
+    }
+    .small-catagori .image {
+        width: 200px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin-bottom: 60px;
+    }
+    .carousel-inner::before {
+        left: 32%;
+        top: 111px;
+        font-size: 240%;
+    }
+    .buy-btn {
+        padding: 6px 14px;
+        font-size: 15px;
+    }
+    .small-catagori .image {
+        width: 200px;
+    }
+    .card {
+        padding: 15px;
+    }
+    .image.text-center h3 {
+        font-size: 15px;
+    }
+    .small-catagori .image {
+        width: 130px;
+        height: 140px;
+    }
+    .image img {
+        width: 60px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .container {
+        margin-bottom: 60px;
+    }
+    .carousel-inner::before {
+        display: none;
+    }
+    .row.d-flex.justify-content-between.align-items-center {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar-brand img {
+        width: 100px;
+    }
+    .card-deck {
+        display: inherit;
+    }
+    .card-deck .card {
+        margin-bottom: 30px;
+    }
+    .small-catagori .image {
+        width: 110px;
+        height: 130px;
+    }
+    .image img {
+        width: 60px;
+    }
+    .image.text-center h3 {
+        font-size: 15px;
+    }
+    .small-catagori .image {
+        padding: 20px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
