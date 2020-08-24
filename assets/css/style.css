@@ -46,6 +46,16 @@ h5 {
     text-decoration: none;
     color: #FF9D00;
 }
+.carousel-inner::before {
+    position: absolute;
+    left: 31%;
+    top: 184px;
+    content: "BEST PRODUCTS";
+    font-weight: 600;
+    transform: rotate(270deg);
+    font-size: 400%;
+    opacity: .3;
+}
 /*............... smartphone area...............*/
 .card {
     padding: 30px;
@@ -64,22 +74,13 @@ hr {
     margin-top: -30px;
 }
 
-.small-catagori img {
+.small-catagori .image {
     background-color: #fff;
-    box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 10px #ddd;
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 230px;
+    height: 230px;
     padding: 30px;
     border-radius: 10px 0 10px 0;
 }
-.carousel-inner::before {
-    position: absolute;
-    left: 31%;
-    top: 184px;
-    content: "BEST PRODUCTS";
-    font-weight: 600;
-    transform: rotate(270deg);
-    font-size: 400%;
-    opacity: .3;
-}
+
